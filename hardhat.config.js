@@ -37,16 +37,16 @@ module.exports = {
   networks: {
     ropsten: {
       url: 'https://eth-ropsten.alchemyapi.io/v2/u1hnSaxE-vlf3B8yEX_NvZ1o_GzcZAdL',
-      accounts: ['2218a64e54440561f01cd4124bb7e1f638c3109a5961cdf039e1efacd33b7505']
+      accounts: ['']
     },
 	Shibuya: {
       url: 'https://rpc.shibuya.astar.network:8545',
-      accounts: ['2218a64e54440561f01cd4124bb7e1f638c3109a5961cdf039e1efacd33b7505'],
+      accounts: [''],
 	    chainId: 81
    },
 	Astar: {
       url: 'https://rpc.astar.network:8545',
-      accounts: ['2218a64e54440561f01cd4124bb7e1f638c3109a5961cdf039e1efacd33b7505'],
+      accounts: [''],
 	    chainId: 592
     }
   },
