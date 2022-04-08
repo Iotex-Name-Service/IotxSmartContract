@@ -2410,7 +2410,7 @@ contract Web3Domains is ERC721, ERC721Enumerable, AdminControl, RecordStorage, W
         _;
     }
 
-    constructor() ERC721("Metis Name Service (.metis)", "MNS") {
+    constructor() ERC721("Iotx Name Service (.iotx)", "INS") {
 		
 	}
 	
