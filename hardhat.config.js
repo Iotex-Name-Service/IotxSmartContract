@@ -30,24 +30,20 @@ module.exports = {
       }
     }
   },
-  defaultNetwork: "Shibuya",
+  defaultNetwork: "IotexTestnet",
   namedAccounts: {
     deployer: 0
   },
   networks: {
-    ropsten: {
-      url: 'https://eth-ropsten.alchemyapi.io/v2/u1hnSaxE-vlf3B8yEX_NvZ1o_GzcZAdL',
-      accounts: ['']
-    },
-	Shibuya: {
-      url: 'https://rpc.shibuya.astar.network:8545',
+	IotexTestnet: {
+      url: 'https://babel-api.testnet.iotex.io',
       accounts: [''],
-	    chainId: 81
+	    chainId: 4690
    },
-	Astar: {
-      url: 'https://rpc.astar.network:8545',
+	IotexMainnet: {
+      url: 'https://babel-api.mainnet.iotex.io',
       accounts: [''],
-	    chainId: 592
+	    chainId: 4689
     }
   },
   etherscan: {
